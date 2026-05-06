@@ -2,9 +2,9 @@
 
 * 系统设计文档主体.md   系统设计文档
 
-* smart_scheduler/poc_main.py: 交付物4的主程序，基于命令行的数据流跑批验证入口，输出压缩比与日均负荷评估。
-* smart_scheduler/smart_monitor.py：交付物4的可视化大屏程序，基于 PyQt6 的实时智能调度指挥中心可视化大屏（支持调速与实时拦截观测）以证明真实场景下流式数据处理的可行性。
-* smart_scheduler/smart_scheduler.cp39-win_amd64.pyd：交付物4的核心C++调度算法编译产物，提供高性能的工单调度核心函数接口。
+* smart_scheduler/poc_main.py: 基于命令行的数据流跑批验证入口，输出压缩比与日均负荷评估。
+* smart_scheduler/smart_monitor.py：可视化大屏程序，基于 PyQt6 的实时智能调度指挥中心可视化大屏（支持调速与实时拦截观测）以证明真实场景下流式数据处理的可行性。
+* smart_scheduler/smart_scheduler.cp39-win_amd64.pyd：核心C++调度算法编译产物，提供高性能的工单调度核心函数接口。
 * requirements.txt：Python 外部依赖声明。
 * README.md：
 * attachments/：附件目录，包含 `alerts_7days.csv`、`complaints_sample.jsonl`、`workforce.csv`、`sla_matrix.md`等文件。
