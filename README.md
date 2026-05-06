@@ -1,4 +1,4 @@
-1. 文件结构
+# 1. 文件结构
 
 * 系统设计文档主体.md   系统设计文档
 
@@ -9,7 +9,7 @@
 * README.md：
 * attachments/：附件目录，包含 `alerts_7days.csv`、`complaints_sample.jsonl`、`workforce.csv`、`sla_matrix.md`、`appendix_a_reference_design.md` 等文件。
 
-2. 问题设计
+# 2. 问题设计
 智慧产业园区——多源事件收敛与约束派单调度系统设计
 ---
 ## 1. 业务背景
@@ -79,10 +79,10 @@
 ## 4可运行 PoC 代码
 - 基于 `alerts_7days.csv` 实现告警收敛算法及其可视化面版
 
-3. 环境依赖
+# 3. 环境依赖
 - 请确保测试环境的 Python 版本=3.9，并安装requirements.txt中的依赖包。
 
-4. 运行方式说明
+# 4. 运行方式说明
 - 执行黑盒跑批验证
 运行验证脚本，系统将在一秒内吞吐 3.3 万条历史告警数据，并输出详尽的漏斗收敛报告：
 ```bash
