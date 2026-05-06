@@ -1,5 +1,0 @@
-pandas==2.1.0
-pybind11==2.11.1
-PyQt6==6.5.2
-pytest==7.4.0
-freezegun==1.2.2
