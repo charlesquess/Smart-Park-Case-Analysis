@@ -7,7 +7,7 @@
 * smart_scheduler/smart_scheduler.cp39-win_amd64.pyd：交付物4的核心C++调度算法编译产物，提供高性能的工单调度核心函数接口。
 * requirements.txt：Python 外部依赖声明。
 * README.md：
-* attachments/：附件目录，包含 `alerts_7days.csv`、`complaints_sample.jsonl`、`workforce.csv`、`sla_matrix.md`、`appendix_a_reference_design.md` 等文件。
+* attachments/：附件目录，包含 `alerts_7days.csv`、`complaints_sample.jsonl`、`workforce.csv`、`sla_matrix.md`等文件。
 
 # 2. 问题设计
 智慧产业园区——多源事件收敛与约束派单调度系统设计
@@ -35,7 +35,6 @@
 - `attachments/complaints_sample.jsonl` — 过去一周约 350 条投诉样本（含文本/语音转写/图片文件名，有错别字和方言）
 - `attachments/workforce.csv` — 50 名运维人员的技能、班次、常驻区域；3 台机器人的型号、能力
 - `attachments/sla_matrix.md` — 运营方提供的事件类型 × SLA 要求对照表
-- `attachments/appendix_a_reference_design.md` — 一份上届实习生写的设计草稿，供你在交付物 3 中批判
 
 ## 3. 系统设计文档主体
 包含以下章节：
